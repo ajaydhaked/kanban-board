@@ -1,0 +1,38 @@
+
+.board {
+    display: flex;
+    justify-content: center;
+    width: auto;
+    background-color: #f4f4f4;
+  }
+  
+  .column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .column h3 {
+    font-size: 12px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+
+  /* @media (max-width: 768px) {
+    .column {
+        min-width: 150px;
+    }
+  }
+   */
+  @media (max-width: 480px) {
+    .board {
+      justify-content: center;
+    }
+    /* .column {
+        min-width: 150px;
+    } */
+  }
+  

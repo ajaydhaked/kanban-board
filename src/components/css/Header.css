@@ -1,0 +1,75 @@
+/* Header styles */
+.header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    padding: 10px 20px;
+    position: relative;
+  }
+  
+.header button {
+    display: flex;
+    align-items: center;
+    padding: 8px 16px;
+    margin-top: 6px;
+    font-size: 16px;
+    background-color: #ffffff;
+    border: 2px solid #d4d7d7;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+  
+  /* .header button svg {
+    margin-right: 8px;
+  }
+   */
+  #popup {
+    display: none; 
+    font-size: 13px;
+    position: absolute;
+    top: 75%;
+    left: 30px;
+    background-color: white;
+    border: 1px solid #d4d7d7;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 1, 1, 0.3);
+    padding: 8px;
+    width: 250px;
+    margin-top: 7px;
+    z-index: 10;
+  }
+  
+  .grouping, .sorting{
+    display:flex;
+    justify-content: space-between;
+  }
+  
+  .grouping, .sorting {
+    margin-bottom: 10px;
+  }
+  
+  .grouping label, .sorting label {
+    color: #6c757d;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .grouping select, .sorting select {
+    width: 80px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .grouping select:focus, .sorting select:focus {
+    outline: none;
+  }
+  
+  /* Show the popup when active */
+  #popup.show {
+    display: block;
+  }
+  
